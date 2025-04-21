@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        if (!validarCorreo(correo)) {
+        if (!validarCorreo(correo)){
             Swal.fire({
                 icon: 'error',
                 title: 'Correo no válido',
